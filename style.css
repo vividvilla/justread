@@ -478,8 +478,7 @@ p.subscribe-to-comments {
 	display:	none;
 }
 
-.format-quote  p {
-	font-size: 20px;
+.format-quote  .entry-content {
 	text-align: center;
 	color: #999;
 	padding: 20px 0px;
@@ -487,8 +486,7 @@ p.subscribe-to-comments {
 	border-bottom: 2px solid #ccc;
 }
 
-
-.format-status  p {
+.format-status  .entry-content {
 	background: #f6f6f6;
 	color: #666;
 	padding: 20px;
@@ -914,7 +912,6 @@ p.wp-caption-text {
 }
 
 .sidebar .widget {
-	background-color: #efefef;
 	margin: 0 0 15px;
 	padding: 0 0 15px;
 }
